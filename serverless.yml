@@ -21,21 +21,21 @@ provider:
 
 functions:
   lambda1:
-    handler: lambdas/lambda1/lambda_function.lambda_handler
+    handler: lambdas/retaurant1/lambda_function.lambda_handler
     package:
       patterns:
       - '!**'
-      - lambdas/lambda1/*
-      - lambdas/lambda1/model/*
+      - lambdas/retaurant1/*
+      - lambdas/retaurant1/model/*
       individually: true
  
   
   lambda2:
-    handler: lambdas/lambda2/lambda_function.lambda_handler
+    handler: lambdas/retaurant2/lambda_function.lambda_handler
     package:
       patterns:
       - '!**'
-      - lambdas/lambda2/*
-      - lambdas/lambda2/model/*
+      - lambdas/retaurant2/*
+      - lambdas/retaurant2/model/*
       individually: true
     
