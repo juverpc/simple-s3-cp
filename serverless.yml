@@ -21,21 +21,40 @@ plugins:
 
 functions:
   lambda1:
-    handler: lambdas/restaurant1/lambda_function.lambda_handler
+    handler: lambdas/restaurant1-chal/lambda_function.lambda_handler
     package:
       patterns:
       - '!**'
-      - lambdas/restaurant1/*
-      - lambdas/restaurant1/model/*
+      - lambdas/restaurant1-chal/*
+      - lambdas/restaurant1-chal/model/*
       individually: true
  
   
   lambda2:
-    handler: lambdas/restaurant2/lambda_function.lambda_handler
+    handler: lambdas/restaurant1-champ/lambda_function.lambda_handler
     package:
       patterns:
       - '!**'
-      - lambdas/restaurant2/*
-      - lambdas/restaurant2/model/*
+      - lambdas/restaurant1-champ/*
+      - lambdas/restaurant1-champ/model/*
+      individually: true
+
+  restaurant2-chal:
+    handler: lambdas/restaurant2-chal/lambda_function.lambda_handler
+    package:
+      patterns:
+      - '!**'
+      - lambdas/restaurant2-chal/*
+      - lambdas/restaurant2-chal/model/*
+      individually: true
+ 
+  
+  restaurant2-champ:
+    handler: lambdas/restaurant2-champ/lambda_function.lambda_handler
+    package:
+      patterns:
+      - '!**'
+      - lambdas/restaurant2-champ/*
+      - lambdas/restaurant2-champ/model/*
       individually: true
     
