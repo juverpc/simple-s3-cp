@@ -1,5 +1,7 @@
 version: 0.1
-
+env:
+  shell: bash
+  
 phases:
 
   install:
@@ -8,10 +10,8 @@ phases:
       - npm install
       - npm install -g serverless
       - npm install serverless-deployment-bucket 
-      - chmod +xrw s3_script.sh
+      - chmod +x s3_script.sh
       - ./s3_script.sh
-      - aws s3 cp s3://juver-upload-to-s3/model2/restaurant1/chal/ ./lambdas/restaurant1-chal/model/ --recursive 
-      - ls ./lambdas/restaurant1-chal/model/
               
   build:
 
