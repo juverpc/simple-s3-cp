@@ -16,7 +16,7 @@ provider:
 
 
  plugins:
-   - serverless-deployment-bucket
+  - serverless-deployment-bucket
 
 
 functions:
