@@ -9,7 +9,7 @@ phases:
       - npm install -g serverless
       - npm install serverless-deployment-bucket 
       - aws s3 ls
-      - chmod +x s3_script.sh
+      - chmod +xrw s3_script.sh
       - ./s3_script.sh
       - ls ./lambdas/restaurant1-chal/model/
               
