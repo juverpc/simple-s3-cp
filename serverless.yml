@@ -21,21 +21,21 @@ plugins:
 
 functions:
   lambda1:
-    handler: lambdas/retaurant1/lambda_function.lambda_handler
+    handler: lambdas/restaurant1/lambda_function.lambda_handler
     package:
       patterns:
       - '!**'
-      - lambdas/retaurant1/*
-      - lambdas/retaurant1/model/*
+      - lambdas/restaurant1/*
+      - lambdas/restaurant1/model/*
       individually: true
  
   
   lambda2:
-    handler: lambdas/retaurant2/lambda_function.lambda_handler
+    handler: lambdas/restaurant2/lambda_function.lambda_handler
     package:
       patterns:
       - '!**'
-      - lambdas/retaurant2/*
-      - lambdas/retaurant2/model/*
+      - lambdas/restaurant2/*
+      - lambdas/restaurant2/model/*
       individually: true
     
