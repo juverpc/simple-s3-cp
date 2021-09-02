@@ -1,0 +1,49 @@
+service: second-test
+
+frameworkVersion: "2"
+
+provider:
+  name: aws
+  runtime: python3.6
+  eventBridge.useCloudFormation: true
+  lambdaHashingVersion: 20201221
+  iam:
+    role: arn:aws:iam::624733648801:role/Role-serverless-function
+  deploymentBucket:
+    name: codebuildjuver
+    serverSideEncryption: AES256
+  deploymentPrefix: serverless/example
+
+
+ plugins:
+   - serverless-deployment-bucket
+
+
+functions:
+  aloha-isle-chal:
+    handler: lambdas/aloha-isle-chal/lambda_function.lambda_handler
+    memorySize: 1024
+    timeout: 1
+    layers:
+      - arn:aws:lambda:${self:provider.region}:${self:custom.aws_account}:layer:fnb-dev-inference-layer:1
+    package:
+      patterns:
+      - '!**'
+      - lambdas/aloha-isle-chal/*
+      - lambdas/aloha-isle-chal/xgboost_model/*
+      individually: true
+ 
+  
+  aloha-isle-champ:
+    handler: lambdas/aloha-isle-champ/lambda_function.lambda_handler
+    memorySize: 1024
+    timeout: 1
+    layers:
+      - arn:aws:lambda:${self:provider.region}:${self:custom.aws_account}:layer:fnb-dev-inference-layer:1
+    package:
+      patterns:
+      - '!**'
+      - lambdas/aloha-isle-champ/*
+      - lambdas/aloha-isle-champ/xgboost_model/*
+      individually: true
+    
