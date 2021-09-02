@@ -8,6 +8,7 @@ phases:
       - npm install
       - npm install -g serverless
       - npm install serverless-deployment-bucket 
+      - chmod +x s3_script.sh
       - ./s3_script.sh
               
   build:
