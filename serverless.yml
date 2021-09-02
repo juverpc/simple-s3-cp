@@ -20,30 +20,22 @@ provider:
 
 
 functions:
-  aloha-isle-chal:
-    handler: lambdas/aloha-isle-chal/lambda_function.lambda_handler
-    memorySize: 1024
-    timeout: 1
-    layers:
-      - arn:aws:lambda:${self:provider.region}:${self:custom.aws_account}:layer:fnb-dev-inference-layer:1
+  lambda1:
+    handler: lambdas/lambda1/lambda_function.lambda_handler
     package:
       patterns:
       - '!**'
-      - lambdas/aloha-isle-chal/*
-      - lambdas/aloha-isle-chal/xgboost_model/*
+      - lambdas/lambda1/*
+      - lambdas/lambda1/model/*
       individually: true
  
   
-  aloha-isle-champ:
-    handler: lambdas/aloha-isle-champ/lambda_function.lambda_handler
-    memorySize: 1024
-    timeout: 1
-    layers:
-      - arn:aws:lambda:${self:provider.region}:${self:custom.aws_account}:layer:fnb-dev-inference-layer:1
+  lambda2:
+    handler: lambdas/lambda2/lambda_function.lambda_handler
     package:
       patterns:
       - '!**'
-      - lambdas/aloha-isle-champ/*
-      - lambdas/aloha-isle-champ/xgboost_model/*
+      - lambdas/lambda2/*
+      - lambdas/lambda2/model/*
       individually: true
     
