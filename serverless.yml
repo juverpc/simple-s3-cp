@@ -15,7 +15,7 @@ provider:
   deploymentPrefix: serverless/example
 
 
- plugins:
+plugins:
   - serverless-deployment-bucket
 
 
