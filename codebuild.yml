@@ -11,11 +11,11 @@ phases:
       - npm install -g serverless
       - npm install serverless-deployment-bucket 
       - chmod +x s3_script.sh
-      # ./s3_script.sh
-      - aws s3 cp s3://juver-upload-to-s3/model2/restaurant1/chal/ ./lambdas/restaurant1-chal --recursive
-      - aws s3 cp s3://juver-upload-to-s3/model2/restaurant1/champ/ ./lambdas/restaurant1-champ --recursive
-      - aws s3 cp s3://juver-upload-to-s3/model2/restaurant2/chal/ ./lambdas/restaurant2-chal --recursive
-      - aws s3 cp s3://juver-upload-to-s3/model2/restaurant2/champ/ ./lambdas/restaurant2-champ --recursive
+      - ./s3_script.sh
+      # - aws s3 cp s3://juver-upload-to-s3/model2/restaurant1/chal/ ./lambdas/restaurant1-chal --recursive
+      # - aws s3 cp s3://juver-upload-to-s3/model2/restaurant1/champ/ ./lambdas/restaurant1-champ --recursive
+      # - aws s3 cp s3://juver-upload-to-s3/model2/restaurant2/chal/ ./lambdas/restaurant2-chal --recursive
+      # - aws s3 cp s3://juver-upload-to-s3/model2/restaurant2/champ/ ./lambdas/restaurant2-champ --recursive
               
   build:
 
