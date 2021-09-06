@@ -1,4 +1,4 @@
-service: second-test
+service: serverless-test
 
 frameworkVersion: "2"
 
