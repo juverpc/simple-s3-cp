@@ -1,7 +1,7 @@
 import yaml
 import os
 
-def read_yaml_file():
+def copy_model_from_s3():
 
     with open("./environment/dev/config.yml", 'r') as stream:
         get_value = yaml.load(stream)
@@ -19,4 +19,4 @@ def read_yaml_file():
         os.system("rm -rf" +" "+"./lambdas/"+str(restaurant)+"-champ/model/test.tar.gz")
      
 if __name__ == "__main__":
-    read_yaml_file()
+    copy_model_from_s3()
