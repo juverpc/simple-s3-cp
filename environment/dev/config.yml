@@ -1,2 +1,5 @@
 data_bucket: juver-upload-to-s3
 model_path: model
+locations: 
+  - restaurant1
+  - restaurant2
