@@ -1,5 +1,16 @@
 data_bucket: juver-upload-to-s3
-model_path: model
+model_path: auto_training_pipeline/sm_pipelines/deployed_models
 locations: 
-  - restaurant1
-  - restaurant2
+  restaurant1:
+    stand_menus:
+      - 2ac31518-47bb-4951-ba8c-c3f058193535
+      - 5ac31518-47bb-4951-ba8c-c3f058193537
+          
+  restaurant2:
+    stand_menus:
+      - 6ac31518-47bb-4951-ba8c-c3f058193530
+    
+
+  
+  #pipelines_path =  f's3://fnb-dse-bucket/auto_training_pipeline/sm_pipelines/deployed_models/[NOMBRE LOCATION]/champion_model/stand_menu_{stand_menu_uuid}/' 
+

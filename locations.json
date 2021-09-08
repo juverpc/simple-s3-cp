@@ -1,0 +1,188 @@
+{
+    "locations": {
+      "aloha-isle": {
+        "stand_menus": [
+          "1ac31518-47bb-4951-ba8c-c3f058193535"
+        ]
+      },
+      "backlot-express": {
+        "stand_menus": [
+          "b4ca027d-8e64-4cde-9b21-0a2ebbfac56b"
+        ]
+      },
+      "beach-club-marketplace": {
+        "stand_menus": [
+          "1fb9cb2a-80ff-42a7-9ad0-6042b6e2ba13",
+          "71b26ef6-af90-4359-b9a0-7a59ab4e1cf9",
+          "d20b04bd-ff6e-4a9e-a7d4-6035bf9f22eb"
+        ]
+      },
+      "boardwalk-bakery": {
+        "stand_menus": [
+          "6e561659-b9a1-42c6-b597-660345dc0d7f",
+          "9b8df0ab-1179-42c1-81cc-d58eed1d0fb2"
+        ]
+      },
+      "capt-cooks": {
+        "stand_menus": [
+          "40f6dbe1-59c5-4905-87da-7eecf57774c5",
+          "c77a8c6c-5557-474f-9649-fcfd0f96e415"
+        ]
+      },
+      "centertown-market": {
+        "stand_menus": [
+          "72f0c275-7683-4a0f-8293-f2b03dc5f5ed",
+          "c6cdf9f0-ea5f-4dbc-87ee-6d2e7d31c1b4"
+        ]
+      },
+      "cosmic-rays-starlight-cafe": {
+        "stand_menus": [
+          "3861cafb-6bc0-41cc-b21b-b1e8e0a7fa83"
+        ]
+      },
+      "d-luxe-burger": {
+        "stand_menus": [
+          "baa6e094-85fe-431d-a507-1c9cc8903176"
+        ]
+      },
+      "docking-bay-food-and-cargo": {
+        "stand_menus": [
+          "4aa7c13e-3207-4c75-8b19-5c4ddd5f42eb",
+          "38406ee7-4847-4abf-bb71-3addfb37ebb2"
+        ]
+      },
+      "everything-pop-food-court": {
+        "stand_menus": [
+          "7844cbc0-92bd-45f0-be09-e8b36e71d963",
+          "bbd0f224-dcf4-4f92-9a84-516712bee198"
+        ]
+      },
+      "flame-tree-barbecue": {
+        "stand_menus": [
+          "7d82d72e-f6aa-49ec-a716-d40369c66300"
+        ]
+      },
+      "gasparilla-island-grill": {
+        "stand_menus": [
+          "553e5b28-8b9a-4f87-8a80-e6565cd9bb99",
+          "e0a85172-be75-446e-844b-a5979f6de0ec",
+          "e184648a-5eb7-4615-88b7-2e75fecbd0ea"
+        ]
+      },
+      "harambe-market": {
+        "stand_menus": [
+          "97ae057e-3d4b-487e-9cd0-8ee7164d5027"
+        ]
+      },
+      "landscape-of-flavors": {
+        "stand_menus": [
+          "447af77d-3730-405b-bfe4-ef0d168896b6",
+          "119542c4-7cea-4a2b-8fdf-3e29a5ae3518"
+        ]
+      },
+      "pecos-bill-tall-tale-inn-and-cafe": {
+        "stand_menus": [
+          "f9f3e259-15c1-4656-8535-675bf9ef2540"
+        ]
+      },
+      "pinocchio-village-haus": {
+        "stand_menus": [
+          "b6b2b8e0-15c5-4776-babb-01af241ec02a"
+        ]
+      },
+      "pizzerizzo": {
+        "stand_menus": [
+          "e69c4e67-37bc-439b-948f-fc11a77a93db"
+        ]
+      },
+      "pnj-southern-takeout": {
+        "stand_menus": [
+          "1f54c7b7-17e5-4857-b7f7-08443052ea8f",
+          "54871ff8-dbc9-4c68-8130-ca2ebd761faf"
+        ]
+      },
+      "primo-piatto": {
+        "stand_menus": [
+          "5a52d31e-7892-4082-bf60-d085c6259881",
+          "a229bd5f-3a45-49ea-8f06-19bf24da0be3",
+          "e5f98c32-34e7-436a-830c-c1fba1837889"
+        ]
+      },
+      "regal-eagle-smokehouse": {
+        "stand_menus": [
+          "815341a8-e5f8-424e-a730-706347cf31f0"
+        ]
+      },
+      "restaurantosaurus": {
+        "stand_menus": [
+          "e3a0fcad-0baf-4569-a8ab-1bd73b8776ec"
+        ]
+      },
+      "roaring-fork": {
+        "stand_menus": [
+          "2ad73507-2106-411a-87ec-8bedaa195f4a",
+          "c2eb158e-07cb-4318-ab93-c6b4cb2dbdc6"
+        ]
+      },
+      "rosies-all-american-cafe": {
+        "stand_menus": [
+          "851a481e-d396-4f4d-98b0-3113f2413b97"
+        ]
+      },
+      "sanna-to-go": {
+        "stand_menus": [
+          "81ad52ed-02ff-4619-9c58-5dba2ea276e4",
+          "e0b09ee1-1dbf-46b5-87be-33852007547b"
+        ]
+      },
+      "satuli-weather": {
+        "stand_menus": [
+          "3adcd060-53c8-4268-bbdd-8e15d36124ca"
+        ]
+      },
+      "sushine-seasons": {
+        "stand_menus": [
+          "48ce65cc-2256-4a8b-99e9-5d98f3c10ead"
+        ]
+      },
+      "the-artists-palette": {
+        "stand_menus": [
+          "8ba8fc87-2097-483d-97c1-3e35d6d844b9",
+          "4815c4a0-a6ae-4002-9aa2-9bfb7df790b7",
+          "e88d3e47-bf45-43c2-8bf6-cd365b120b95"
+        ]
+      },
+      "the-launching-pad": {
+        "stand_menus": [
+          "fc2a451d-5a49-47ff-bcd5-3b42aefa2d18"
+        ]
+      },
+      "the-mara": {
+        "stand_menus": [
+          "d7b149cc-6b41-4bc7-9184-6b349f3e569a"
+        ]
+      },
+      "the-market-at-ale-and-compass": {
+        "stand_menus": [
+          "3bf2e6af-6a6e-4901-a106-068c4260f147",
+          "05982b8b-13d2-4978-812d-3fc7886dc412"
+        ]
+      },
+      "tomorrowland-terrace": {
+        "stand_menus": [
+          "5ef32d23-8a33-4257-9346-5c65d294fddf"
+        ]
+      },
+      "woodys-lunch-box": {
+        "stand_menus": [
+          "6f03fd44-8d43-4ab9-ab2c-967c4adcabb6"
+        ]
+      },
+      "world-premiere-food-court": {
+        "stand_menus": [
+          "1a21dfdf-1255-4ccc-8a58-1f8560b2c18f",
+          "e1fb5ce7-276d-4b7d-8427-3331577bbd0b"
+        ]
+      }
+    }
+  }
